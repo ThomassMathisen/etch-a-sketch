@@ -24,8 +24,8 @@ function makeBoard(size) {
 };
  
 function getSize(){
-    let input = prompt("What size would you like? ")
-    let message = document.querySelector("#message ")
+    let input = prompt("What size would you like? ");
+    let message = document.querySelector("#message ");
     if (input == "") {
         message.innerHTML = "Please provide a number"
     }
